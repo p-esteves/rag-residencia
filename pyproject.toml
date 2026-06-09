@@ -3,7 +3,7 @@ name = "projeto-portfolio"
 version = "0.1.0"
 description = "TODO substitua: 1 sentence pitch do seu projeto"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<4.0"
 dependencies = [
     "openai>=1.0",
     "chromadb>=0.5",
