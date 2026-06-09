@@ -2,7 +2,7 @@
 
 > **LGPD Copilot** — Assistente inteligente de compliance e legislação para a Lei Geral de Proteção de Dados Pessoais (Lei 13.709/2018). Faça perguntas em linguagem natural e obtenha respostas fundamentadas na lei com verificação automática de artigos.
 
-**Demo:** [http://localhost:8501](http://localhost:8501) (Executável localmente via Streamlit)
+**Demo:** [https://rag-residencia-pietro.streamlit.app/](https://rag-residencia-pietro.streamlit.app/) 
 
 ![Demonstração do LGPD Copilot](demo.png)
 
@@ -179,7 +179,7 @@ Todos os 6 requisitos técnicos exigidos foram implementados no repositório:
 
 ## 🎓 Rubrica e Avaliação
 
-Este projeto cumpre os requisitos para a banda de avaliação:
+Este projeto cumpre os requisitos de avaliação:
 
 *   **Técnica (40%):** Todos os TODOs 1-6 em funcionamento estável, com tratamento robusto para rate-limits, exceções e logs estruturados em JSON contendo `trace_id`.
 *   **README (30%):** Documentação detalhada cobrindo problema, diagrama de arquitetura, decisões de design não óbvias e limitações.
