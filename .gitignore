@@ -1,0 +1,38 @@
+.env
+.env.local
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+.ipynb_checkpoints/
+.vscode/
+
+# Dados e cache
+data/chroma/
+data/cache/
+*.log
+
+# Eval results — descomente para versionar
+# evals/results-*.json
+
+# ==========================================
+# Materiais do Curso (ignorar no Portfólio)
+# ==========================================
+/labs/
+/slides/
+/projetos/
+/scratch/
+/datasets/
+/*.pdf
+!/data/corpus/*.pdf
+/*.ipynb
+/demo_old.png
+
+# ==========================================
+# Python Build & Packaging Artifacts
+# ==========================================
+*.egg-info/
+/src/*.egg-info/
+/build/
+/dist/
