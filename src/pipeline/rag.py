@@ -255,6 +255,10 @@ Sempre cite a fonte no formato [arquivo:pagina]."""
         else:
             answer_text = message.content or ""
 
+        # Remove eventuais blocos <think>...</think> gerados por modelos de raciocínio
+        import re
+        answer_text = re.sub(r"<think>.*?</think>", "", answer_text, flags=re.DOTALL).strip()
+
         sources = [(h["source"], h["page"]) for h in hits]
 
         return {
